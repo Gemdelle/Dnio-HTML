@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "MedusaGothicD";
+    src: url("font/MedusaGothic\ D.otf") format("truetype"); /* Ajusta la ruta */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   background-image: url(img/bg/base.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+nav {
+    width: 30vw;
+    height: 12vh;
+    position: fixed;
+    left: 2vw;
+    top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    /* background-color: yellow; */
+    font-family: "MedusaGothicD",     sans-serif; 
+}
+
+header {
+    width: 50%;
+    height: 10vh;
+    background-color: orange;
+    margin: 0;
+    margin-left: 43vw;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container {
+    width: 32%;
+    height: 170%;
+    /* background-color: gray; */
+    background-image: url(img/frames/profile-frame.png);
+    background-size: 100% 100%;
+    margin-top: 6vh;
+    position: absolute;
+}
+
+.routes {
+    width: 75%;
+    height: 80%;
+    background-image: url(img/nav-bg.png);
+    background-size: 100% 100%;
+    /* background-color: red; */
+    background-position: center right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 25%;
+    padding: 0 3vw;
+}
+
+.routes a {
+    text-decoration: none;
+    font-size: 0.7vw;
+    color: rgb(61, 59, 44);
+}
