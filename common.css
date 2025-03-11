@@ -43,8 +43,8 @@ header {
 }
 
 .profile-container {
-    width: 32%;
-    height: 170%;
+    width: 11vw;
+    height: 11vw;
     /* background-color: gray; */
     background-image: url(img/frames/profile-frame.png);
     background-size: 100% 100%;

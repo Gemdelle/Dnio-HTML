@@ -11,7 +11,7 @@
 .triassic-inferior-bg {
     width: 100vw;
     height: 100vh;
-    background-image: url(img/era-bg/bg-tr-3.png);
+    background-image: url(img/era-bg/bg-jur-1.png);
     background-size: 110% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,17 +85,17 @@
 }
 
 .dinosaur-1 {
-    background-image: url(img/dinosaurs/tr-3-Coelophysis.png);
+    background-image: url(img/dinosaurs/ju-1-Compsognathus.png);
     animation: breathe 2s infinite ease-in-out;
 }
 
 .dinosaur-2 {
-    background-image: url(img/dinosaurs/tr-3-Plateosaurus.png);
+    background-image: url(img/dinosaurs/ju-1-Cryolophosaurus.png);
     animation: breathe 4s infinite ease-in-out;
 }
 
 .dinosaur-3 {
-    background-image: url(img/dinosaurs/tr-3-Rauisuchus.png);
+    background-image: url(img/dinosaurs/ju-1-Dilophosaurus.png);
     animation: breathe 3s infinite ease-in-out;
 }
 
@@ -200,3 +200,4 @@
     transform-origin: bottom;
     animation: breathe 4s ease-in-out infinite alternate;
 }
+

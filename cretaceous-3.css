@@ -85,17 +85,17 @@
 }
 
 .dinosaur-1 {
-    background-image: url(img/dinosaurs/tr-3-Coelophysis.png);
+    background-image: url(img/dinosaurs/cr-3-Ankylosaurus.png);
     animation: breathe 2s infinite ease-in-out;
 }
 
 .dinosaur-2 {
-    background-image: url(img/dinosaurs/tr-3-Plateosaurus.png);
+    background-image: url(img/dinosaurs/cr-3-Triceratops.png);
     animation: breathe 4s infinite ease-in-out;
 }
 
 .dinosaur-3 {
-    background-image: url(img/dinosaurs/tr-3-Rauisuchus.png);
+    background-image: url(img/dinosaurs/cr-3-Tyrannosaurus\ Rex.png);
     animation: breathe 3s infinite ease-in-out;
 }
 
@@ -200,3 +200,4 @@
     transform-origin: bottom;
     animation: breathe 4s ease-in-out infinite alternate;
 }
+
